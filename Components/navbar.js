@@ -97,12 +97,12 @@ class Navbar extends HTMLElement {
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="/the-afterglow/Discography/MissFortune.html">Miss Fortune</a>
-              <a href="/the-afterglow/Discography/Jackson.html">Jackson</a>
-              <a href="/the-afterglow/Discography/BoyScoutz.html">Boy Scoutz</a>
-              <a href="/the-afterglow/Discography/Suzy.html">Suzy</a>
-              <a href="/the-afterglow/Discography/Comet.html">Comet</a>
-              <a href="/the-afterglow/Discography/Lylas.html">LYLAS</a>
+              <a href="https://clara-hct02.github.io/the-afterglow/Discography/MissFortune.html">Miss Fortune</a>
+              <a href="https://clara-hct02.github.io/the-afterglow/Discography/Jackson.html">Jackson</a>
+              <a href="https://clara-hct02.github.io/the-afterglow/Discography/BoyScoutz.html">Boy Scoutz</a>
+              <a href="https://clara-hct02.github.io/the-afterglow/Discography/Suzy.html">Suzy</a>
+              <a href="https://clara-hct02.github.io/the-afterglow/Discography/Comet.html">Comet</a>
+              <a href="https://clara-hct02.github.io/the-afterglow/Discography/Lylas.html">LYLAS</a>
             </div>
         </div>
         <div class="dropdown">
@@ -110,12 +110,12 @@ class Navbar extends HTMLElement {
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="/the-afterglow/SNS/MissFortune.html">Miss Fortune</a>
-            <a href="/the-afterglow/SNS/Jackson.html">Jackson</a>
-            <a href="/the-afterglow/SNS/BoyScoutz.html">Boy Scoutz</a>
-            <a href="/the-afterglow/SNS/Suzy.html">Suzy</a>
-            <a href="/the-afterglow/SNS/Comet.html">Comet</a>
-            <a href="/the-afterglow/SNS/Lylas.html">LYLAS</a>
+            <a href="https://clara-hct02.github.io/the-afterglow/SNS/MissFortune.html">Miss Fortune</a>
+            <a href="https://clara-hct02.github.io/the-afterglow/SNS/Jackson.html">Jackson</a>
+            <a href="https://clara-hct02.github.io/the-afterglow/SNS/BoyScoutz.html">Boy Scoutz</a>
+            <a href="https://clara-hct02.github.io/the-afterglow/SNS/Suzy.html">Suzy</a>
+            <a href="https://clara-hct02.github.io/the-afterglow/SNS/Comet.html">Comet</a>
+            <a href="https://clara-hct02.github.io/the-afterglow/SNS/Lylas.html">LYLAS</a>
           </div>
       </div>
     </div>
