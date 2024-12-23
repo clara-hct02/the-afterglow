@@ -91,7 +91,7 @@ class Navbar extends HTMLElement {
       </style>
 
       <div class="topnav">
-        <a class="active" href="index.html">Home</a>
+        <a class="active" href="https://clara-hct02.github.io/the-afterglow/">Home</a>
         <div class="dropdown">
             <button class="dropbtn">Discography
               <i class="fa fa-caret-down"></i>
