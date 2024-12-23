@@ -8,31 +8,35 @@ class Navbar extends HTMLElement {
     <style>
       /* Add a black background color to the top navigation */
       .topnav {
-      background-color: #333;
-      overflow: hidden;
+        background-color: white;
+        overflow: hidden;
+        font: large sans-serif;
+        // position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 25px 0 black;
       }
 
       /* Style the links inside the navigation bar */
       .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin: 10px;
       }
 
       /* Change the color of links on hover */
       .topnav a:hover {
-      background-color: #ddd;
-      color: black;
+        background-color: #ddd;
+        color: black;
       }
 
-      /* Add a color to the active/current link */
-      .topnav a.active {
-      background-color: rgb(255, 147, 221);
-      color: white;
-      }
 
       /* Dropdown container - needed to position the dropdown content */
       .dropdown {
@@ -42,20 +46,22 @@ class Navbar extends HTMLElement {
 
       /* Style the dropdown button to fit inside the topnav */
       .dropdown .dropbtn {
-        font-size: 17px;
+        font-size: large;
         border: none;
         outline: none;
-        color: white;
+        color: black;
         padding: 14px 16px;
         background-color: inherit;
         font-family: inherit;
-        margin: 0;
+        margin: 10px;
+        z-index: 1;
       }
 
       /* Style the dropdown content (hidden by default) */
       .dropdown-content {
         display: none;
         position: absolute;
+        // top: 100%;
         background-color: #f9f9f9;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -78,16 +84,17 @@ class Navbar extends HTMLElement {
         color: white;
       }
 
+      /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
       /* Add a grey background to dropdown links on hover */
       .dropdown-content a:hover {
         background-color: #ddd;
         color: black;
       }
 
-      /* Show the dropdown menu when the user moves the mouse over the dropdown button */
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
       </style>
 
       <div class="topnav">
