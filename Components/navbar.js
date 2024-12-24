@@ -18,7 +18,7 @@ class Navbar extends HTMLElement {
         height: 80px;
         display: flex;
         align-items: center;
-        box-shadow: 0 0 25px 0 black;
+        box-shadow: 0 0 15px 0 black;
       }
 
       /* Style the links inside the navigation bar */
@@ -99,19 +99,7 @@ class Navbar extends HTMLElement {
 
       <div class="topnav">
         <a class="active" href="https://clara-hct02.github.io/the-afterglow/">Home</a>
-        <div class="dropdown">
-            <button class="dropbtn">Discography
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="https://clara-hct02.github.io/the-afterglow/Discography/MissFortune.html">Miss Fortune</a>
-              <a href="https://clara-hct02.github.io/the-afterglow/Discography/Jackson.html">Jackson</a>
-              <a href="https://clara-hct02.github.io/the-afterglow/Discography/BoyScoutz.html">Boy Scoutz</a>
-              <a href="https://clara-hct02.github.io/the-afterglow/Discography/Suzy.html">Suzy</a>
-              <a href="https://clara-hct02.github.io/the-afterglow/Discography/Comet.html">Comet</a>
-              <a href="https://clara-hct02.github.io/the-afterglow/Discography/Lylas.html">LYLAS</a>
-            </div>
-        </div>
+        <a href="https://clara-hct02.github.io/the-afterglow/discography.html">Discography</a>
         <div class="dropdown">
           <button class="dropbtn">SNS
             <i class="fa fa-caret-down"></i>
