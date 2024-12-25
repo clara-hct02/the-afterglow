@@ -112,8 +112,9 @@ class Navbar extends HTMLElement {
             <a href="https://clara-hct02.github.io/the-afterglow/SNS/Comet.html">Comet</a>
             <a href="https://clara-hct02.github.io/the-afterglow/SNS/Lylas.html">LYLAS</a>
           </div>
+        </div>
+        <a href="https://clara-hct02.github.io/the-afterglow/Voices/Voices.html">VOICE-S</a>
       </div>
-    </div>
     `
   }
 }

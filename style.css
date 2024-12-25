@@ -48,7 +48,6 @@ p {
 
 /* discography page */
 .wrapper {
-    /* margin: 10%; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     overflow: hidden;
@@ -59,6 +58,7 @@ p {
     margin: 10%;
     padding: 5%;
     border-radius: 20px;
+    position: relative;
 }
 
 h3 {
@@ -69,4 +69,14 @@ h4 {
     font: medium sans-serif;
     color: darkgrey;
 }
+
+.icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
